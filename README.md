@@ -1,13 +1,13 @@
 # nnjson
 
-Installation
+## Installation
 
 npm i --save nnjson
 
-In Node.js
+## In Node.js
 
+```
 var nnjson = require('nnjson');
-
 var user = {
   name: 'Nomura Nori',
   age: '36',
@@ -25,9 +25,11 @@ var user = {
 }
 
 var newUser = nnjson.removeNull(user);
-
 console.log (newUser)
-result 
+```
+
+## result 
+```
 {
   name: 'Nomura Nori',
   age: '36',
@@ -41,3 +43,4 @@ result
   },
   ]
 }
+```
