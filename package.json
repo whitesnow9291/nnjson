@@ -1,6 +1,6 @@
 {
   "name": "nnjson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove null value from json object",
   "main": "index.js",
   "scripts": {
