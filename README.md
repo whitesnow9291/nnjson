@@ -1,5 +1,7 @@
 # nnjson
 
+Remove key which has null value from json object.
+
 ## Installation
 
 npm i --save nnjson
